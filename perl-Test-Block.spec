@@ -1,15 +1,15 @@
 %define upstream_name    Test-Block
-%define upstream_version 0.11
+%define upstream_version 0.13
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 0.13
+Release:	1
 
 Summary:	Specify fine granularity test plans
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Test/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Test/Test-Block-0.13.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Test::Builder)
@@ -63,3 +63,4 @@ make test
 
 * Sat May 31 2008 Guillaume Rousse <guillomovitch@mandriva.org> 0.11-1mdv2009.0
 - fist mdv release
+
