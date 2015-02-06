@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.13
-Release:	2
+Release:	3
 
 Summary:	Specify fine granularity test plans
 License:	GPL+ or Artistic
