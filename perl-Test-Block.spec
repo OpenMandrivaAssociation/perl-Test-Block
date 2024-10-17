@@ -8,7 +8,7 @@ Release:	3
 Summary:	Specify fine granularity test plans
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Test/Test-Block-0.13.tar.gz
 
 BuildRequires:	perl-devel
