@@ -2,14 +2,14 @@
 %define upstream_version 0.13
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.13
-Release:	3
+Version:	%{upstream_version}
+Release:	4
 
 Summary:	Specify fine granularity test plans
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Test/Test-Block-0.13.tar.gz
+Url:		https://metacpan.org/dist/Test-Block
+Source0:	https://cpan.metacpan.org/authors/id/A/AD/ADIE/Test-Block-0.13.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
