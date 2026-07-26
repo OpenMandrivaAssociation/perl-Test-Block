@@ -1,9 +1,7 @@
 %define upstream_name    Test-Block
-%define upstream_version 0.13
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	4
+Version:	0.13
+Release:	5
 
 Summary:	Specify fine granularity test plans
 License:	GPL+ or Artistic
@@ -27,7 +25,7 @@ Test::Builder manpage and plays happily with the Test::More manpage and
 friends.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -51,9 +49,7 @@ make test
 
 * Sat Aug 01 2009 Jérôme Quelin <jquelin@mandriva.org> 0.110.0-1mdv2010.0
 + Revision: 405545
-- rebuild using %%perl_convert_version
-
-* Fri Aug 08 2008 Thierry Vignaud <tv@mandriva.org> 0.11-2mdv2009.0
+- rebuild using %0.13 Fri Aug 08 2008 Thierry Vignaud <tv@mandriva.org> 0.11-2mdv2009.0
 + Revision: 268730
 - rebuild early 2009.0 package (before pixel changes)
 
